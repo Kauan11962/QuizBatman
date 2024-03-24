@@ -80,7 +80,55 @@
     }
 }
 
-@media only screen and (max-width: 350px)
+@media only screen and (max-width: 375px) 
 {
-
+    #tempo
+    {
+        margin-left: 75%;
+    }
+    li 
+    {
+        width: 80%;
+        font-size: 21px;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 2;
+    }
+    h3 
+    {
+        font-size: 26px;
+    }
+    h2 
+    {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    .absolute
+    {
+        margin-top: 2%;
+    }
+    .header
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .iao
+    {
+        gap: 30px;
+        width: 90%;
+    }
+    #altera1, #altera2, #altera3
+    {
+        padding-left: 10px;
+        font-size: 22px;
+    }
+    .display, .display2, .display3
+    {
+        gap: 20px;
+    }
+    img
+    {
+        width: 90%;
+    }
 }
+
