@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body onload="iniciar()">
+    <div class="absolute">
+        <h1>Qu<span class="span1">i</span><span class="span2">z</span></h1>
+        <div class="img">
+            <img class="img2" width="60px" height="60px" src="img/cerebro.png"> 
+        </div>
+    </div>
+    <div id="tempo">
+        10
+    </div>
+    <div id="triste" class="triste">
+        <h2>Batman ficou decepcionado com você</h1>
+        <h3>seu tempo acabou</h2>
+        <img src="img/batmantriste.webp">
+    </div>
+    <header>
+        <div id="display" class="display">
+            <li>1. Qual é o verdadeiro nome do Batman?</li>
+            <div class="flex">
+                <button onclick="resposta()">
+                    <div class="la">
+                        <label id="label">
+                            <input name="resposta1" value="certa" type="checkbox">
+                            Bruce Banner
+                        </label>
+                    </div>
+                </button>
+                <button onclick="resposta()">
+                    <div id="erradaop2" class="la">
+                        <label id="label2">
+                            <input name="resposta1" value="errado" type="checkbox">
+                            Clark Kent
+                        </label>
+                    </div>
+                </button>
+                <button onclick="resposta()">
+                    <div class="la">
+                        <label id="label3">
+                            <input name="resposta1" value="errado" type="checkbox">
+                            Bruce Wayne
+                        </label> 
+                    </div>
+                </button>
+                <button onclick="resposta()">
+                    <div class="la">
+                        <label id="label4">
+                            <input name="resposta1" value="errado" type="checkbox">
+                            Peter Parker
+                        </label>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div id="none">
+            <div id="display2" class="display2">
+                <li>2. Qual é o principal vilão do Batman?</li>
+                <div class="flex2">
+                    <button onclick="resposta2()">
+                        <div class="la">
+                            <label id="label5">
+                                <input name="resposta2" value="errado" type="checkbox">
+                                Arkham Knight
+                            </label>
+                        </div>
+                    </button>
+                    <button onclick="resposta2()">
+                        <div class="la">
+                            <label id="label6">
+                                <input name="resposta2" value="errado" type="checkbox">
+                                Espantalho
+                            </label>
+                        </div>
+                    </button>
+                    <button onclick="resposta2()">
+                        <div class="la">
+                            <label id="label7">
+                                <input name="resposta2" value="certa" type="checkbox">
+                                Coringa
+                            </label> 
+                        </div>
+                    </button>
+                    <button onclick="resposta2()">
+                        <div class="la">
+                            <label id="label8">
+                                <input name="resposta2" value="errado" type="checkbox">
+                                Bane
+                            </label>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="none2">
+            <div id="display3" class="display3">
+                <li>3. Em qual cidade Batman nasceu?</li>
+                <div class="flex2">
+                    <button onclick="resposta3()">
+                        <div class="la">
+                            <label id="label9">
+                                <input name="resposta3" value="errado" type="checkbox">
+                                Metrópoles
+                            </label>
+                        </div>
+                    </button>
+                    <button onclick="resposta3()">
+                        <div class="la">
+                            <label id="label10">
+                                <input name="resposta3" value="certa" type="checkbox">
+                                Gotham City
+                            </label>
+                        </div>
+                    </button>
+                    <button onclick="resposta3()">
+                        <div class="la">
+                            <label id="label11">
+                                <input name="resposta3" value="errado" type="checkbox">
+                                Arkham City
+                            </label> 
+                        </div>
+                    </button>
+                    <button onclick="resposta3()">
+                        <div class="la">
+                            <label id="label12">
+                                <input name="resposta3" value="errado" type="checkbox">
+                                Boston
+                            </label>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="resul">
+            <div class="iao">
+                <h3 id="altera1">RESULTADO</h3>
+                <h3 id="altera2">RESULTADO</h3>
+                <h3 id="altera3">RESULTADO</h3>
+            </div>
+        </div>
+    </header>
+    <script src="js/script.js"></script>
+</body>
+</html>
