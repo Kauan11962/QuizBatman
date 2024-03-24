@@ -1,0 +1,77 @@
+@media only screen and (min-width: 720px) and (max-width: 1280px){
+    .triste
+    {
+        margin-left: 5%;
+        box-shadow: 10px 10px 10px 10px #00000052;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        gap: 20px;
+        display: none;
+    }
+    h2
+    {
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+    h3 
+    {
+        font-size: 26px;
+    }
+    li
+    {
+        margin-bottom: 5%;
+        background: white;
+        box-shadow: 10px 10px 10px 10px #00000052;
+        width: 80%;
+        height: 30%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px){
+
+    li
+    {
+        margin-bottom: 5%;
+        background: white;
+        box-shadow: 10px 10px 10px 10px #00000052;
+        width: 90%;
+        height: 30%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 21px;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 2;
+    }
+    .display, .display2, .display3
+    {
+        gap: 20px;
+    }
+    .absolute
+    {
+        margin-top: 3%;
+    }
+    .iao
+    {
+        gap: 30px;
+        width: 90%;
+    }
+    #altera1, #altera2, #altera3
+    {
+        font-size: 24px;
+    }
+}
