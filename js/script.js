@@ -34,17 +34,16 @@ function resposta(){
             document.getElementById("altera1").style = "color: rgb(55 117 213);"
         }else if(respostaCorreta == 0)
         {
-            document.getElementById("altera1").innerHTML = "Você errou a segunda pergunta";
+            document.getElementById("altera1").innerHTML = "Você errou a primeira pergunta";
             document.getElementById("altera1").style = "color: #fd76b4;"
         }
     });
 
     console.log(respostaCorreta);
 
-    document.getElementById("label").style = "color : green;"
-    document.getElementById("label").style = "color : green;"
+    document.getElementById("label").style = "color : red;"
     document.getElementById("label2").style = "color : red;"
-    document.getElementById("label3").style = "color : red;"
+    document.getElementById("label3").style = "color : green;"
     document.getElementById("label4").style = "color : red;"
     setInterval(() => {
         document.getElementById("display").style = "display : none;"
