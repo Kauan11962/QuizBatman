@@ -1,4 +1,4 @@
-var tempo = 10;
+var tempo = 15;
 
 function iniciar(){
     time =  setInterval(function() {
