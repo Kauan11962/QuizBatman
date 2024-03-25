@@ -30,11 +30,11 @@ function resposta(){
         }
 
         if(respostaCorreta == 1){
-            document.getElementById("altera1").innerHTML = "Você acertou a primeira pergunta";
+            document.getElementById("altera1").innerHTML = "Você acertou a primeira <span id='spanscrpt'>pergunta<span>";
             document.getElementById("altera1").style = "color: rgb(55 117 213);"
         }else if(respostaCorreta == 0)
         {
-            document.getElementById("altera1").innerHTML = "Você errou a primeira pergunta";
+            document.getElementById("altera1").innerHTML = "Você errou a <span id='spanscrpt'>primeira pergunta<span>";
             document.getElementById("altera1").style = "color: #fd76b4;"
         }
     });
@@ -63,11 +63,11 @@ function resposta2(){
         }
 
         if(respostaCorreta2 == 1){
-            document.getElementById("altera2").innerHTML = "Você acertou a segunda pergunta";
+            document.getElementById("altera2").innerHTML = "Você acertou a segunda <span id='spanscrpt'>pergunta<span>";
             document.getElementById("altera2").style = "color: rgb(55 117 213)"
         }else if(respostaCorreta2 == 0)
         {
-            document.getElementById("altera2").innerHTML = "Você errou a segunda pergunta";
+            document.getElementById("altera2").innerHTML = "Você errou a segunda <span id='spanscrpt'>pergunta<span>";
             document.getElementById("altera2").style = "color: #fd76b4;"
         }
     });
@@ -110,11 +110,11 @@ function resposta3(){
     }, 1000);
 
     if(respostaCorreta3 == 1){
-        document.getElementById("altera3").innerHTML = "Você acertou a terceira pergunta";
+        document.getElementById("altera3").innerHTML = "Você acertou a terceira <span id='spanscrpt'>pergunta<span>";
         document.getElementById("altera3").style = "color: rgb(55 117 213)"
     }else
     {
-        document.getElementById("altera3").innerHTML = "Você errou a terceira pergunta";
+        document.getElementById("altera3").innerHTML = "Você errou a terceira <span id='spanscrpt'pergunta>";
         document.getElementById("altera3").style = "color: #fd76b4;"
     }
 }
